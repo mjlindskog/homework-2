@@ -1,13 +1,11 @@
 # <My Portfolio>
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 - Create a model portfolio that can help improve CSS abilties?
 - Will need to have a portfolio to pursue development career
 - Now had ground work laid for portfolio
 - Leanred how to advanced CSS knowledge through trial and error
 
 ## Table of Contents
-If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
