@@ -225,12 +225,6 @@ footer {
     background-color: var(--light-blue);
 }
 
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .header {
         width: 100%;
@@ -393,6 +387,17 @@ footer {
         height: 285px;
     }
 
+    .bottom-left {
+        position: absolute;
+        font-size: 1rem;
+        bottom: 14px;
+        left: 10px;
+        text-align: right;
+        background-color: var(--light-blue);
+        color: white;
+        padding: auto;
+    }
+
     #contact-me ul li {
         display: inline;
         width: 100%;
@@ -403,5 +408,56 @@ footer {
         margin-bottom:10px;
         margin-left: 70px;
         margin-right: 0px;
+    }
+} 
+
+@media screen and (max-width: 375px) {
+    #portfolio {
+        display: flex;
+        justify-content: center;
+    }
+
+    #portfolio h2 {
+        display: contents;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #project-box ul {
+        width: 100%;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #project-box ul li {
+        position: relative;
+        width: 100%;
+    }
+
+    .coming-soon {
+        position: relative;
+        width: 275px;
+        height: 275px;
+    }
+
+    .coming-soon:hover {
+        width: 285px;
+        height: 285px;
+    }
+
+    .bottom-left {
+        position: absolute;
+        font-size: 1rem;
+        bottom: 14px;
+        left: 10px;
+        text-align: right;
+        padding: auto;
+    }
+
+    #contact-me ul li {
+        display: flex;
     } 
 } 
